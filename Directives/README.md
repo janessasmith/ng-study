@@ -22,7 +22,7 @@ angular.module('directivesApp', []).
 	});
 ```
 
-如果路径没问题的话，用浏览器打开 index.html 就可以看到 Hi, AngularJS! 可以看到<test-show>这个标签已经被<div>Hi, AngularJS!</div>这个标签替换掉了
+如果路径没问题的话，用浏览器打开 index.html 就可以看到 Hi, AngularJS! 可以看到``<test-show>``这个标签已经被``<div>Hi, AngularJS!</div>``这个标签替换掉了
 
 **注意：**
 - replace: true的含义
