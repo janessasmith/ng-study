@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta name="viewport" content="initial-scale=1.0,width=device-width" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">
+
+    <title>如何处理标签中的子标签</title>
+</head>
+
+<body ng-app="directivesApp">
+	<test-show>
+		<br />
+		<span>the first janessa</span><br/>
+		<span>the second janessa</span><br/>
+        <span>the third janessa</span>
+        <p>p 标签显示，这个标签定义在在span里面</p>
+        <a>a标签是定义在p标签内部，同样可以通过ng-transclude显示</a>
+        <h>h标签自定义在a标签内部,同样可以显示在页面上面</h>
+	</test-show>
+
+	<script src="http://cdn.bootcss.com/angular.js/1.6.1/angular.js"></script>
+	<script type="text/javascript" src="transclude.js"></script>
+</body>
+</html>
