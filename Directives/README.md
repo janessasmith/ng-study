@@ -35,7 +35,7 @@ angular.module('directivesApp', []).
 
 
 ###如何处理标签中的子标签
-```javascript
+```angularjs
 angular.module('directivesApp', []).
 	directive('testShow', function() {
 		return {
