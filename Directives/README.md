@@ -39,4 +39,7 @@ angular.module('directivesApp', []).
 
 transclude的作用可以简化地理解成：把``<test-show>``标签替换成我们所编写的HTML模板但是``<test-show>``标签内部的内容Hi,angularjs保持不变。指令有时候会嵌套，所以加上transclude指令可以保证每一个指令的内容不会被替换掉
 
+
+###怎样使用templateUrl加载html模板
+
 templateUrl可以来替代template,目的是为了能够让显示的内容是来自一个Url而不是像上面一样,这样显示的内容非常的有限，而且会使得字符串累加，页面相当的繁琐。从而可以把模板写到一个独立的HTML文件中。
