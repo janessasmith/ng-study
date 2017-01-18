@@ -35,7 +35,7 @@ angular.module('directivesApp', []).
 
 
 ###如何处理标签中的子标签
-```angularjs
+```javascript
 angular.module('directivesApp', []).
 	directive('testShow', function() {
 		return {
@@ -67,3 +67,6 @@ angular.module('directivesApp', []).
 		};
 	});
 ```
+
+
+###怎样缓存模板，使其可以让其他指令使用
